@@ -1,8 +1,8 @@
 workflow Start-LoggingLab
 {
     Write-output "This is an Output Line"
-    
-    Write-debug "This is a debug line"
+    $verbosepreference = "Continue"
+        Write-debug "This is a debug line"
     
         Write-verbose "This is a verbose line"
     
